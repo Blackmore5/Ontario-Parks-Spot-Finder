@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-chrome_path = r"C:\Program Files (x86)\Google\Chrome\chromedriver.exe"
+chrome_path = r"xxx_xxx/chromedriver.exe"
 driver = webdriver.Chrome(chrome_path)
 driver.get("https://reservations.ontarioparks.com/OntarioParks?Map")
 
